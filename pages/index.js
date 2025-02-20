@@ -47,7 +47,7 @@ export default function Register() {
             <h2 className="text-2xl font-semibold text-center text-yellow-400">Login</h2>
           </div>
           <form onSubmit={handleSubmit}>
-            {['Email', 'Password'].map((field, index) => (
+            {['CORETAX_MANTAB', 'Password'].map((field, index) => (
               <div key={index} className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">{field.replace(/([A-Z])/g, ' $1').trim()}</label>
                 <input
